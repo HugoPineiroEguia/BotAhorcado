@@ -13,7 +13,7 @@ public class Ahorcado {
 
     public static void main(String[] args) {
 
-        final String token = "OTUzNjMxMDM5Mjk5OTExNjkx.Gvs8l-.pBdPe3YJy6QYfCUQ9UiqvUT6Ymy9A585VOD9EY";
+        final String token = "TOKEN";
         final DiscordClient client = DiscordClient.create(token);
         final GatewayDiscordClient gateway = client.login().block();
 
